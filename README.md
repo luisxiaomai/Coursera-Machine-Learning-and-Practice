@@ -39,9 +39,7 @@ reinforceing learning.*
     With linear regression, we know that we have to find a linearity within the data so we can get θ0 and θ1
     Our hypothesis equation looks like this:
     
-    *hθ(x)= θ0  + θ1X*
-    
-    Where:
+    ![alt text]( https://github.com/luisxiaomai/Images/blob/master/Machine-Learning/Week1/Hypothesis.png)
 
     hθ(x) is the value price (which we are going to predicate) for particular square_feet  (means price is a linear function of square_feet)
     θ0 is a constant
