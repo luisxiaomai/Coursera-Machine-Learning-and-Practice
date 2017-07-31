@@ -58,7 +58,14 @@ reinforceing learning.*
     - Script Output:
     
     ![alt text]( https://github.com/luisxiaomai/Images/blob/master/Machine-Learning/Week1/linear_line.png)
-  
+    
+    > PREDICTING WHICH TV SHOW WILL HAVE MORE VIEWERS NEXT WEEK
+    
+   The **Flash** and **Arrow** are American television series, each one is popular with people. It's interesting that which one will ultimately win the ratings war, so lets write a program which predicts which TV Show will have more viewers.
+   
+   We have the following dataset:
+   
+   
   **[⬆ back to top](#table-of-contents)**
 
 ## Week2
