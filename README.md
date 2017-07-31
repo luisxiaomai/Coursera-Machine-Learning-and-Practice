@@ -28,7 +28,7 @@ reinforceing learning.*
     - `Gradient Descent`
   - **Linear Algebra Review**
   - **Python Practice**
-    > 1.PREDICTING HOUSE PRICES
+    > PREDICTING HOUSE PRICES
     
     We have the following dataset:
     
@@ -53,12 +53,12 @@ reinforceing learning.*
     - θ1 is the regression coefficient
 
     **Coding**
-    - See week1 python codes which used Python Packages for Data Mining like NumPy, SciPy, Pandas, Matplotlib, Scikit-Learn to implement it.
+    - See [week1 python codes](https://github.com/luisxiaomai/Coursera-Machine-Learning-and-Practice/tree/master/Week1/scipts/house_price) which used Python Packages for Data Mining like NumPy, SciPy, Pandas, Matplotlib, Scikit-Learn to implement it.
     - Script Output:
     
     ![alt text]( https://github.com/luisxiaomai/Images/blob/master/Machine-Learning/Week1/linear_line.png)
     
-    > 2.PREDICTING WHICH TV SHOW WILL HAVE MORE VIEWERS NEXT WEEK
+    > PREDICTING WHICH TV SHOW WILL HAVE MORE VIEWERS NEXT WEEK
     
     The **Flash** and **Arrow** are American television series, each one is popular with people. It's interesting that which one will ultimately win the ratings war, so lets write a program which predicts which TV Show will have more viewers.
     
@@ -75,6 +75,7 @@ reinforceing learning.*
     | 7              | 3.47             | 7              | 2.64 |
     | 8              | 4.34             | 8              | 3.92 |
     | 9              | 4.66             | 9              | 3.06 |
+    
     **Steps to solving this problem:**
     - First we have to convert our data to X_parameters and Y_parameters, but here we have two X_parameters and Y_parameters. So, lets’s
     - name them as flash_x_parameter, flash_y_parameter, arrow_x_parameter , arrow_y_parameter.
@@ -83,10 +84,10 @@ reinforceing learning.*
     - Then we can compare the results and we can guess which show will have more viewers.
    
     **Coding**
-    - See week1 python codes which used Python Packages for Data Mining like NumPy, SciPy, Pandas, Matplotlib, Scikit-Learn to implement it.
+    - See [week1 python codes](https://github.com/luisxiaomai/Coursera-Machine-Learning-and-Practice/tree/master/Week1/scipts/house_price) which used Python Packages for Data Mining like Pandas, Scikit-Learn to implement it. See 
     - Script Output:
-    
-    
+    The flash TV show will have more viewer for next week9.
+    
   **[⬆ back to top](#table-of-contents)**
 
 ## Week2
