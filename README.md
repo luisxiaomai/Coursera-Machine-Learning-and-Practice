@@ -40,10 +40,11 @@ reinforceing learning.*
     Our hypothesis equation looks like this:
     
     ![alt text]( https://github.com/luisxiaomai/Images/blob/master/Machine-Learning/Week1/Hypothesis.png)
-
-    hθ(x) is the value price (which we are going to predicate) for particular square_feet  (means price is a linear function of square_feet)
-    θ0 is a constant
-    θ1 is the regression coefficient
+    
+    **Where**
+    - hθ(x) is the value price (which we are going to predicate) for particular square_feet  (means price is a linear function of square_feet)
+    - θ0 is a constant
+    - θ1 is the regression coefficient
 
 
   
