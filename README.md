@@ -12,18 +12,17 @@ reinforceing learning.*
   1. [Week5](#Week5)
 
 ## Week1
-  <a name="types--primitives"></a><a name="1.1"></a>
   - **Introduction** 
     - `Machine Learning definition`:A computer program is said to learn from experience E with respect to some task T and some performance measure P, if its performance on T, as measured by P, improves with experience E
     - `Supervised learning`:"Right answer given" e.g. Regression, Classification...
     - `Unsupervised learning`:"No right answer given" e.g. Clustering, Gradient descent...
-  - **Linear Regression with One Variable**:  
+  - **Linear Regression with One Variable**
     - `Model representation`
     - `Cost function`
     - `Gradient Descent`
   - **Linear Algebra Review**
-  - **Python Practice**:  
-
+  - **Python Practice**
+    > Why? This ensures that you can’t reassign your references, which can lead to bugs and difficult to comprehend code.
 
   
   
