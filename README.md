@@ -84,8 +84,8 @@ reinforceing learning.*
    - Then we can compare the results and we can guess which show will have more viewers.
    
    **Coding**
-    - See week1 python codes which used Python Packages for Data Mining like NumPy, SciPy, Pandas, Matplotlib, Scikit-Learn to implement it.
-    - Script Output:
+   - See week1 python codes which used Python Packages for Data Mining like NumPy, SciPy, Pandas, Matplotlib, Scikit-Learn to implement it.
+   - Script Output:
     
     
   **[⬆ back to top](#table-of-contents)**
