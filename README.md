@@ -78,8 +78,7 @@ reinforceing learning.*
     | 9              | 4.66             | 9              | 3.06 |
     
     **Steps to solving this problem:**
-    - First we have to convert our data to X_parameters and Y_parameters, but here we have two X_parameters and Y_parameters. So, lets’s
-    - name them as flash_x_parameter, flash_y_parameter, arrow_x_parameter , arrow_y_parameter.
+    - First we have to convert our data to X_parameters and Y_parameters, but here we have two X_parameters and Y_parameters. So, lets’s name them as flash_x_parameter, flash_y_parameter, arrow_x_parameter , arrow_y_parameter.
     - Then we have to fit our data to two different  linear regression models- first for Flash, and the other for Arrow.
     - Then we have to predict the number of viewers for next episode for both of the TV shows.
     - Then we can compare the results and we can guess which show will have more viewers.
