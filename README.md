@@ -13,6 +13,7 @@ reinforceing learning.*
 
 ## Week1
 
+  <a name="types--primitives"></a><a name="1.1"></a>
   - **Introduction** 
     - `Machine Learning definition`:A computer program is said to learn from experience E with respect to some task T and some performance measure P, if its performance on T, as measured by P, improves with experience E
     - `Supervised learning`:"Right answer given" e.g. Regression, Classification...
