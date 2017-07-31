@@ -10,12 +10,12 @@ reinforceing learning.*
   1. [Week3](#week3)
   1. [Week4](#week4)
   1. [Week5](#week5)
-  1. [Week4](#week6)
-  1. [Week5](#week7)
-  1. [Week4](#week8)
-  1. [Week5](#week9)
-  1. [Week4](#week10)
-  1. [Week5](#week11)
+  1. [Week6](#week6)
+  1. [Week7](#week7)
+  1. [Week8](#week8)
+  1. [Week9](#week9)
+  1. [Week10](#week10)
+  1. [Week11](#week11)
 ## Week1
 
   <a name="types--primitives"></a><a name="1.1"></a>
