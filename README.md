@@ -47,12 +47,12 @@ reinforceing learning.*
     
     ![alt text]( https://github.com/luisxiaomai/Images/blob/master/Machine-Learning/Week1/Hypothesis.png)
     
-    **Where**
+    **Where:**
     - hθ(x) is the value price (which we are going to predicate) for particular square_feet  (means price is a linear function of square_feet)
     - θ0 is a constant
     - θ1 is the regression coefficient
 
-    **Coding**
+    **Coding:**
     - See [week1 python codes](https://github.com/luisxiaomai/Coursera-Machine-Learning-and-Practice/tree/master/Week1/scipts/house_price) which used Python Packages for Data Mining like NumPy, SciPy, Pandas, Matplotlib, Scikit-Learn to implement it.
     - Script Output:
     
@@ -83,7 +83,7 @@ reinforceing learning.*
     - Then we have to predict the number of viewers for next episode for both of the TV shows.
     - Then we can compare the results and we can guess which show will have more viewers.
    
-    **Coding**
+    **Coding:**
     - See [week1 python codes](https://github.com/luisxiaomai/Coursera-Machine-Learning-and-Practice/tree/master/Week1/scipts/TV_viewers) which used Python Packages for Data Mining like Pandas, Scikit-Learn to implement it. See 
     - Script Output:
     The flash TV show will have more viewer for next week9.
