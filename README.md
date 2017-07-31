@@ -18,7 +18,6 @@ reinforceing learning.*
   1. [Week11](#week11)
 ## Week1
 
-  <a name="types--primitives"></a><a name="1.1"></a>
   - **Introduction** 
     - `Machine Learning definition`:A computer program is said to learn from experience E with respect to some task T and some performance measure P, if its performance on T, as measured by P, improves with experience E
     - `Supervised learning`:"Right answer given" e.g. Regression, Classification...
@@ -29,7 +28,7 @@ reinforceing learning.*
     - `Gradient Descent`
   - **Linear Algebra Review**
   - **Python Practice**
-    > PREDICTING HOUSE PRICES
+    > 1.PREDICTING HOUSE PRICES
     
     We have the following dataset:
     
@@ -59,13 +58,36 @@ reinforceing learning.*
     
     ![alt text]( https://github.com/luisxiaomai/Images/blob/master/Machine-Learning/Week1/linear_line.png)
     
-    > PREDICTING WHICH TV SHOW WILL HAVE MORE VIEWERS NEXT WEEK
+    > 2.PREDICTING WHICH TV SHOW WILL HAVE MORE VIEWERS NEXT WEEK
     
-   The **Flash** and **Arrow** are American television series, each one is popular with people. It's interesting that which one will ultimately win the ratings war, so lets write a program which predicts which TV Show will have more viewers.
+    The **Flash** and **Arrow** are American television series, each one is popular with people. It's interesting that which one will ultimately win the ratings war, so lets write a program which predicts which TV Show will have more viewers.
+    
+    We have the following dataset:
    
-   We have the following dataset:
+   | FLASH_EPISODE  | FLASH_US_VIEWERS | ARROW_EPISODE  | ARROW_US_VIEWERS |
+   | -----------    |:-----------:     | -----:         | -----: |
+   | 1              | 4.83             | 1              | 2.84 |
+   | 2              | 4.27             | 2              | 2.32 |
+   | 3              | 3.59             | 3              | 2.55 |
+   | 4              | 3.53             | 4              | 2.49 |
+   | 5              | 3.46             | 5              | 2.73 |
+   | 6              | 3.73             | 6              | 2.6  |
+   | 7              | 3.47             | 7              | 2.64 |
+   | 8              | 4.34             | 8              | 3.92 |
+   | 9              | 4.66             | 9              | 3.06 |
    
+   **Steps to solving this problem:**
+   - First we have to convert our data to X_parameters and Y_parameters, but here we have two X_parameters and Y_parameters. So, lets’s
+   - name them as flash_x_parameter, flash_y_parameter, arrow_x_parameter , arrow_y_parameter.
+   - Then we have to fit our data to two different  linear regression models- first for Flash, and the other for Arrow.
+   - Then we have to predict the number of viewers for next episode for both of the TV shows.
+   - Then we can compare the results and we can guess which show will have more viewers.
    
+   **Coding**
+    - See week1 python codes which used Python Packages for Data Mining like NumPy, SciPy, Pandas, Matplotlib, Scikit-Learn to implement it.
+    - Script Output:
+    
+    
   **[⬆ back to top](#table-of-contents)**
 
 ## Week2
