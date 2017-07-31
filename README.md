@@ -22,7 +22,31 @@ reinforceing learning.*
     - `Gradient Descent`
   - **Linear Algebra Review**
   - **Python Practice**
-    > Why? This ensures that you can’t reassign your references, which can lead to bugs and difficult to comprehend code.
+    > PREDICTING HOUSE PRICES
+    
+    We have the following dataset:
+    
+    | Entry No.  | Square_Feet | Price  |
+    | -----------|:-----------:| -----: |
+    | 1          | 150         | 6450   |
+    | 2          | 200         | 7450   |
+    | 3          | 250         | 8450   |
+    | 4          | 300         | 9450   |
+    | 5          | 350         | 11450  |
+    | 6          | 400         | 15450  |
+    | 7          | 600         | 18450  |
+
+    With linear regression, we know that we have to find a linearity within the data so we can get θ0 and θ1
+    Our hypothesis equation looks like this:
+    
+    *hθ(x)= θ0  + θ1X*
+    
+    Where:
+
+    hθ(x) is the value price (which we are going to predicate) for particular square_feet  (means price is a linear function of square_feet)
+    θ0 is a constant
+    θ1 is the regression coefficient
+
 
   
   
