@@ -49,6 +49,7 @@ reinforceing learning.*
     **Coding**
     - See week1 python codes which used Python Packages for Data Mining like NumPy, SciPy, Pandas, Matplotlib, Scikit-Learn to implement it.
     - Script Output:
+    
     ![alt text]( https://github.com/luisxiaomai/Images/blob/master/Machine-Learning/Week1/linear_line.png)
 
   
