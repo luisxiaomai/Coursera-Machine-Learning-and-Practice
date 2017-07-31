@@ -5,12 +5,17 @@ reinforceing learning.*
 
 ## Table of Contents
 
-  1. [Week1](#Week1)
-  1. [Week2](#Week2)
-  1. [Week3](#Week3)
-  1. [Week4](#Week4)
-  1. [Week5](#test)
-
+  1. [Week1](#week1)
+  1. [Week2](#week2)
+  1. [Week3](#week3)
+  1. [Week4](#week4)
+  1. [Week5](#week5)
+  1. [Week4](#week6)
+  1. [Week5](#week7)
+  1. [Week4](#week8)
+  1. [Week5](#week9)
+  1. [Week4](#week10)
+  1. [Week5](#week11)
 ## Week1
 
   <a name="types--primitives"></a><a name="1.1"></a>
@@ -58,5 +63,20 @@ reinforceing learning.*
 
 ## Week2
 
+## Week3
+
+## Week4
+
+## Week5
+
+## Week6
+
+## Week7
   
-## test
+## Week8
+
+## Week9
+
+## Week10
+
+## Week11
