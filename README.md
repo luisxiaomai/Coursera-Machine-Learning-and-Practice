@@ -1,7 +1,6 @@
 # Coursera-Machine-Learning-and-Practice
 
-*A study recording of [Coursera's Machine Learning by Andrew Ng](https://www.coursera.org/learn/machine-learning), but added some python practice for 
-reinforceing learning.*
+*A study recording of [Coursera's Machine Learning by Andrew Ng](https://www.coursera.org/learn/machine-learning), but added some practices for reinforceing learning.*
 
 ## Table of Contents
 
