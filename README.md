@@ -21,11 +21,14 @@
     - `Machine Learning definition`:A computer program is said to learn from experience E with respect to some task T and some performance measure P, if its performance on T, as measured by P, improves with experience E
     - `Supervised learning`:"Right answer given" e.g. Regression, Classification...
     - `Unsupervised learning`:"No right answer given" e.g. Clustering, Gradient descent...
+    
   - **Linear Regression with One Variable**
     - `Model representation`
     - `Cost function`
     - `Gradient Descent`
+    
   - **Linear Algebra Review**
+  
   - **Python Practice**
     > PREDICTING HOUSE PRICES
     
@@ -91,6 +94,28 @@
 
 ## Week2
 
+  - **Linear Regression with Multiple Variables** 
+    - `Multiple features`
+    - `Gradient Descent for multiple variables`
+    - `Feature scaling`
+    - `Learning rate`
+    - `Features and Polynomial Regression`    
+   
+  - **Computing Parameters Analytically**
+    - `Normal equation`
+    - `Normal equation Noninvertibility`
+    
+  - **Octave Tutorial**
+    - `Basic operation`
+    - `Moving Data Around`
+    - `Computing on Data`
+    - `Plotting Data`
+    - `Control statement: for, while, if statement`   
+    - `Vectorization`   
+    
+  - **Python Practice**
+  
+  
 ## Week3
 
 ## Week4
