@@ -97,8 +97,10 @@
   - **Linear Regression with Multiple Variables** 
     - `Multiple features`
     - `Gradient Descent for multiple variables`
-    - `Feature scaling`
-    - `Learning rate`
+    - `Feature scaling`: Make sure features are on a similar scale.
+    - `Learning rate`: Making sure gradient descent is working correctly.
+      - If α is too small: slow convergence.
+      - If α is too large: J(θ) may not decrease on every every iteration;; may not converge
     - `Features and Polynomial Regression`    
    
   - **Computing Parameters Analytically**
