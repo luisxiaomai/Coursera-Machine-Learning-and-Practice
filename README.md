@@ -29,7 +29,7 @@
     
   - **Linear Algebra Review**
   
-  - **Python Practice for simple linear regression**
+  - **Python Practice for Simple Linear Regression**
     > PREDICTING HOUSE PRICES
     
     We have the following dataset:
