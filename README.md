@@ -130,12 +130,6 @@ on data. See related [exercises and scripts](https://github.com/luisxiaomai/Cour
       
       ![alt text](https://github.com/luisxiaomai/Images/blob/master/Machine-Learning/Week2/plot1.png)
 
-      **2. Plotting the Data**
-      
-      Before starting on any task, it is often useful to understand the data by visualizing it. For this dataset, you can use a scatter plot to visualize the data, since it has only two properties to plot (profit and population).
-      
-      ![alt text](https://github.com/luisxiaomai/Images/blob/master/Machine-Learning/Week2/plot1.png)
-      
 
 
 ## Week3
