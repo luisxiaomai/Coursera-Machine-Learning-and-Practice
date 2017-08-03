@@ -118,7 +118,25 @@
   - **Octave Practice for Linear Regression**
    
      In this practice, we will implement linear regression and get to see it work
-on data. See related [exercises and scripts](https://github.com/luisxiaomai/Coursera-Machine-Learning-and-Practice/tree/master/Week2/ex1) which used officeal coursera's exercise. All what did in the exercises are summarised as below:
+on data. See related [exercises and scripts](https://github.com/luisxiaomai/Coursera-Machine-Learning-and-Practice/tree/master/Week2/ex1) which used officeal coursera's exercise. All what did in the exercises are summarised as below sections:
+
+      > Linear regression with one variable
+      
+      In this part of this exercise, you will implement linear regression with onevariable to predict profits for a food truck. Suppose you are the CEO of a restaurant franchise and are considering different cities for opening a new outlet. The chain already has trucks in various cities and you have data for profits and populations from the cities.
+
+      **1. Plotting the Data**
+      
+      Before starting on any task, it is often useful to understand the data by visualizing it. For this dataset, you can use a scatter plot to visualize the data, since it has only two properties to plot (profit and population).
+      
+      ![alt text](https://github.com/luisxiaomai/Images/blob/master/Machine-Learning/Week2/plot1.png)
+
+      **2. Plotting the Data**
+      
+      Before starting on any task, it is often useful to understand the data by visualizing it. For this dataset, you can use a scatter plot to visualize the data, since it has only two properties to plot (profit and population).
+      
+      ![alt text](https://github.com/luisxiaomai/Images/blob/master/Machine-Learning/Week2/plot1.png)
+      
+
 
 ## Week3
 
