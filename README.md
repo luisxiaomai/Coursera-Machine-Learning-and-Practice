@@ -115,8 +115,9 @@
     - `Control statement: for, while, if statement`   
     - `Vectorization`   
     
-  - **Python Practice**
+  - **Octave Practice for Linear Regression**
   
+    In this practice, we will implement linear regression and get to see it work on data. See related [exercises and scripts](https://github.com/luisxiaomai/Coursera-Machine-Learning-and-Practice/tree/master/Week2/ex1) which used officeal coursera's exercise. All what did in the exerices are summarised as below:
   
 ## Week3
 
