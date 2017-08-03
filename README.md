@@ -115,9 +115,8 @@
     - `Control statement: for, while, if statement`   
     - `Vectorization`   
     
-  - **Octave Practice for Linear Regression**
-    **Coding:**
-    - See [week1 python codes](https://github.com/luisxiaomai/Coursera-Machine-Learning-and-Practice/tree/master/Week1/scipts/house_price) which used Python Packages for Data Mining like NumPy, SciPy, Pandas, Matplotlib, Scikit-Learn to implement it.
+  - **Octave Practice for Linear Regression**
+   
      
 ## Week3
 
