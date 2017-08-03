@@ -116,11 +116,8 @@
     - `Vectorization`   
     
   - **Octave Practice for Linear Regression**
-  
-    - **Background**
-    
-    - [exercises and scripts](https://github.com/luisxiaomai/Coursera-Machine-Learning-and-Practice/tree/master/Week2/ex1) 
-
+    **Coding:**
+    - See [week1 python codes](https://github.com/luisxiaomai/Coursera-Machine-Learning-and-Practice/tree/master/Week1/scipts/house_price) which used Python Packages for Data Mining like NumPy, SciPy, Pandas, Matplotlib, Scikit-Learn to implement it.
      
 ## Week3
 
