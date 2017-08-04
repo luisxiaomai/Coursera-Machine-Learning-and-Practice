@@ -162,6 +162,34 @@ on data. See related [exercises and scripts](https://github.com/luisxiaomai/Cour
       
       ![alt text](https://github.com/luisxiaomai/Images/blob/master/Machine-Learning/Week2/plot4.png)
 
+      > Linear regression with multiple variables
+      
+      In this part, you will implement linear regression with multiple variables to predict the prices of houses. Suppose you are selling your house and you want to know what a good market price would be. One way to do this is to first collect information on recent houses sold and make a model of housing prices.
+
+      **1. Feature Normalization**
+      By looking at the data set avlue, note that house sizes are about 1000 times the number of bedrooms. When features differ by orders of mag-nitude, first performing feature scaling can make gradient descent converge much more quickly.
+      
+      * Subtract the mean value of each feature from the dataset.
+      * After subtracting the mean, additionally scale (divide) the feature values by their respective \standard deviations."
+      
+      **2. Gradient Descent**
+      
+      Previously, you implemented gradient descent on a univariate regression problem. The only difference now is that there is one more feature in the matrix X. The hypothesis function and the batch gradient descent update rule remain unchanged.
+      Also we can try out different learning rates for the dataset and find a learning rate that converges quickly.
+      If you picked a learning rate within a good range, your plot look similar figure like below: 
+      
+      ![alt text](https://github.com/luisxiaomai/Images/blob/master/Machine-Learning/Week2/learning_rate.png)
+
+      **3. Normal Equationst**
+      In the lecture videos, you learned that the closed-form solution to linear regression is
+      
+      ![alt text](https://github.com/luisxiaomai/Images/blob/master/Machine-Learning/Week2/equation.png)
+      
+      Using this formula does not require any feature scaling, and you will get an exact solution in one calculation: there is no \loop until convergence" like in gradient descent.
+      https://github.com/luisxiaomai/Images/blob/master/Machine-Learning/Week2/equation.png
+     
+   **[⬆ back to top](#table-of-contents)**
+   
 ## Week3
 
 ## Week4
