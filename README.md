@@ -118,7 +118,7 @@
   - **Octave Practice for Linear Regression**
    
      In this practice, we will implement linear regression and get to see it work
-on data. See related [exercises and scripts](https://github.com/luisxiaomai/Coursera-Machine-Learning-and-Practice/tree/master/Week2/ex1) which used officeal coursera's exercise. All what did in the exercises are summarised as below sections:
+on data. See related [exercises and scripts](https://github.com/luisxiaomai/Coursera-Machine-Learning-and-Practice/tree/master/Week2/ex1) which used officeal coursera's exercise. All what we did in the exercises are summarised as below sections:
 
       > Linear regression with one variable
       
@@ -130,7 +130,37 @@ on data. See related [exercises and scripts](https://github.com/luisxiaomai/Cour
       
       ![alt text](https://github.com/luisxiaomai/Images/blob/master/Machine-Learning/Week2/plot1.png)
 
+      **2. Gradient Descent**
+      
+      In this part, you will fit the linear regression parameters θ to our dataset using gradient descent.
+      
+      The objective of linear regression is to minimize the cost function
+      
+      ![alt text](https://github.com/luisxiaomai/Images/blob/master/Machine-Learning/Week2/cost_function.png)
+      
+      where the hypothesis hθ(x) is given by the linear model 
+      
+      ![alt text](https://github.com/luisxiaomai/Images/blob/master/Machine-Learning/Week2/hypothesis.png)
+      
+      Recall that the parameters of your model are the θj values. These arethe values you will adjust to minimize cost J(θ). One way to do this is to use the batch gradient descent algorithm. In batch gradient descent, each iteration performs the update
+      
+      ![alt text](https://github.com/luisxiaomai/Images/blob/master/Machine-Learning/Week2/theta.png)
+      
+      With each step of gradient descent, your parameters θj come closer to the optimal values that will achieve the lowest cost J(θ).
+      
+      So after computing the cost function J(θ) and θ, you can plot the linear fit like below picture :
+      
+      ![alt text](https://github.com/luisxiaomai/Images/blob/master/Machine-Learning/Week2/plot2.png)
+      
+      To understand the cost function J(θ) better, you will now plot the cost over a 2-dimensional grid of θ0 and θ1 values.
 
+      Surface:
+      
+      ![alt text](https://github.com/luisxiaomai/Images/blob/master/Machine-Learning/Week2/plot3.png)
+
+      Contour:
+      
+      ![alt text](https://github.com/luisxiaomai/Images/blob/master/Machine-Learning/Week2/plot4.png)
 
 ## Week3
 
