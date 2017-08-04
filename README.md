@@ -167,6 +167,7 @@ on data. See related [exercises and scripts](https://github.com/luisxiaomai/Cour
       In this part, you will implement linear regression with multiple variables to predict the prices of houses. Suppose you are selling your house and you want to know what a good market price would be. One way to do this is to first collect information on recent houses sold and make a model of housing prices.
 
       **1. Feature Normalization**
+      
       By looking at the data set avlue, note that house sizes are about 1000 times the number of bedrooms. When features differ by orders of mag-nitude, first performing feature scaling can make gradient descent converge much more quickly.
       
       * Subtract the mean value of each feature from the dataset.
@@ -186,7 +187,7 @@ on data. See related [exercises and scripts](https://github.com/luisxiaomai/Cour
       
       ![alt text](https://github.com/luisxiaomai/Images/blob/master/Machine-Learning/Week2/equation.png)
       
-      Using this formula does not require any feature scaling, and you will get an exact solution in one calculation: there is no \loop until convergence" like in gradient descent.
+      Using this formula does not require any feature scaling, and you will get an exact solution in one calculation: there is no loop until convergence" like in gradient descent.
      
    **[⬆ back to top](#table-of-contents)**
    
