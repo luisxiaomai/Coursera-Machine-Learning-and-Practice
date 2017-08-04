@@ -181,12 +181,12 @@ on data. See related [exercises and scripts](https://github.com/luisxiaomai/Cour
       ![alt text](https://github.com/luisxiaomai/Images/blob/master/Machine-Learning/Week2/learning_rate.png)
 
       **3. Normal Equationst**
+      
       In the lecture videos, you learned that the closed-form solution to linear regression is
       
       ![alt text](https://github.com/luisxiaomai/Images/blob/master/Machine-Learning/Week2/equation.png)
       
       Using this formula does not require any feature scaling, and you will get an exact solution in one calculation: there is no \loop until convergence" like in gradient descent.
-      https://github.com/luisxiaomai/Images/blob/master/Machine-Learning/Week2/equation.png
      
    **[⬆ back to top](#table-of-contents)**
    
