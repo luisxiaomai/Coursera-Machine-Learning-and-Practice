@@ -193,6 +193,27 @@ on data. See related [exercises and scripts](https://github.com/luisxiaomai/Cour
    
 ## Week3
 
+ - **Classification and Representation** 
+    - `Classification:`Email:Spam/NotSpam? , Online Transac&ons:Fraudulent(Yes/No)?
+    - `Hypothesis Representation`
+    - `Decision Boundary`
+    
+  - **Logistic Regression Model**
+    - `Cost Function`
+    - `Simplified Cost Function and Gradient Descent`
+    - `Advanced Optimization`
+    
+  - **Multiclass Classification**
+    - `Multiclass Classification:One-vs-all`
+ 
+  - **Regularization**
+    - `The Problem of Overfitting`
+    - `Cost Function`
+    - `Regularized Linear Regression`
+    - `Regularized Logistic Regression`
+
+  - **Octave Practice for Logistics Regression**
+
 ## Week4
 
 ## Week5
