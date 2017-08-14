@@ -280,6 +280,7 @@ different datasets. See related [exercises and scripts](https://github.com/luisx
      As a result of this mapping, our vector of two features (the scores on two QA tests) has been transformed into a 28-dimensional vector. A logistic regression classifier trained on this higher-dimension feature vector will have a more complex decision boundary and will appear nonlinear when drawn in our 2-dimensional plot.
       
      **3. Cost function and gradient**
+     
       Now you will implement code to compute the cost function and gradient for regularized logistic regression.
       
       Recall that the cost function in logistic regression is
@@ -291,9 +292,18 @@ different datasets. See related [exercises and scripts](https://github.com/luisx
       ![alt text](https://github.com/luisxiaomai/Images/blob/master/Machine-Learning/Week3/gradient_regularized_1.png)
 
       ![alt text](https://github.com/luisxiaomai/Images/blob/master/Machine-Learning/Week3/gradient_regularized_2.png)
-  
+
+     **4. Learning parameters using fminunc**
       
+     Similar to the previous parts, you will use fminunc to learn the optimal parameters θ
       
+      *5. Plot the decision boundary*
+      
+      This fnal θ value will then be used to plot the decision boundary on the training data, resulting in a figure similar to below picture:
+      
+      ![alt text](https://github.com/luisxiaomai/Images/blob/master/Machine-Learning/Week3/decision_boundary_Regularized_logistic_regression.png)
+      
+      **[⬆ back to top](#table-of-contents)**
       
 ## Week4
 
