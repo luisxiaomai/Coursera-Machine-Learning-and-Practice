@@ -219,7 +219,7 @@ different datasets. See related [exercises and scripts](https://github.com/luisx
 
       > Logistic Regression
       
-     In this part of the exercise, you will build a logistic regression model to predict whether a student gets admitted into a university. Suppose that you are the administrator of a university department and you want to determine each applicant's chance of admission based on their results on two exams. You have historical data from previous applicants that you can use as a training set for logistic regression. For each training example, you have the applicant's scores on two exams and the admissions decision. Your task is to build a classification model that estimates an applicant's probability of admission based the scores from those two exams
+     In this part of the exercise, you will build a logistic regression model to predict whether a student gets admitted into a university. Suppose that you are the administrator of a university department and you want to determine each applicant's chance of admission based on their results on two exams. You have historical data from previous applicants that you can use as a training set for logistic regression. For each training example, you have the applicant's scores on two exams and the admissions decision. Your task is to build a classification model that estimates an applicant's probability of admission based the scores from those two exams.
 
       **1. Visualizing the data**
       
@@ -243,7 +243,7 @@ different datasets. See related [exercises and scripts](https://github.com/luisx
       
       ![alt text](https://github.com/luisxiaomai/Images/blob/master/Machine-Learning/Week3/costFunction.png)
       
-      and the gradient of the cost is a vector of the same length as θ where the jthelement (for j = 0; 1; : : : ; n) is defined as follows:
+      and the gradient of the cost is a vector of the same length as θ where the jth element (for j = 0; 1; : : : ; n) is defined as follows:
       
       ![alt text](https://github.com/luisxiaomai/Images/blob/master/Machine-Learning/Week3/gradient.png)
 
@@ -251,13 +251,50 @@ different datasets. See related [exercises and scripts](https://github.com/luisx
       
       In the previous assignment, you found the optimal parameters of a linear regression model by implementing gradent descent. You wrote a cost function and calculated its gradient, then took a gradient descent step accordingly.This time, instead of taking gradient descent steps, you will use an Octave/-MATLAB built-in function called fminunc.
       
-      Octave/MATLAB's fminunc is an optimization solver that fnds the minimum of an unconstrained2 function. For logistic regression, you want to optimize the cost function J(0) with parameters 0.
+      Octave/MATLAB's fminunc is an optimization solver that fnds the minimum of an unconstrained2 function. For logistic regression, you want to optimize the cost function J(θ) with parameters θ.
       
-      This fnal 0 value will then be used to plot the decision boundary on the training data, resulting in a figure similar to below picture:
+      *5. Plot the decision boundary*
+      
+      This fnal θ value will then be used to plot the decision boundary on the training data, resulting in a figure similar to below picture:
       
       ![alt text](https://github.com/luisxiaomai/Images/blob/master/Machine-Learning/Week3/decisionBoundray.png)
       
-     
+      > Regularized logistic regression
+      
+     In this part of the exercise, you will implement regularized logistic regression to predict whether microchips from a fabrication plant passes quality assurance (QA). During QA, each microchip goes through various tests to ensure it is functioning correctly. Suppose you are the product manager of the factory and you have the test results for some microchips on two different tests. From these two tests, you would like to determine whether the microchips should be accepted or rejected. To help you make the decision, you have a dataset of test results on past microchips, from which you can build a logistic regression model.
+
+      **1. Visualizing the data**
+      
+      Before starting to implement any learning algorithm, it is always good to visualize the data if possible. It can help you get more familiar with the data distribution.
+       
+      ![alt text](https://github.com/luisxiaomai/Images/blob/master/Machine-Learning/Week3/plotData_regularized.png)
+      
+      It shows that our dataset cannot be separated into positive and negative examples by a straight-line through the plot. Therefore, a straight-forward application of logistic regression will not perform well on this datasetsince logistic regression will only be able to find a linear decision boundary.
+      
+      **2. Feature mapping**
+      
+      One way to fit the data better is to create more features from each datapoint.We will map the features into all polynomial terms of x1 and x2 up to the sixth power.
+      
+      ![alt text](https://github.com/luisxiaomai/Images/blob/master/Machine-Learning/Week3/mapFeature.png)
+      
+     As a result of this mapping, our vector of two features (the scores on two QA tests) has been transformed into a 28-dimensional vector. A logistic regression classifier trained on this higher-dimension feature vector will have a more complex decision boundary and will appear nonlinear when drawn in our 2-dimensional plot.
+      
+     **3. Cost function and gradient**
+      Now you will implement code to compute the cost function and gradient for regularized logistic regression.
+      
+      Recall that the cost function in logistic regression is
+      
+      ![alt text](https://github.com/luisxiaomai/Images/blob/master/Machine-Learning/Week3/regularized_cost_function.png)
+      
+      Note that you should not regularize the parameter θ0. In Octave/MATLAB, recall that indexing starts from 1, hence, you should not be regularizing the theta(1) parameter (which corresponds to θ0) in the code. The gradient of the cost function is a vector where the jth element is defined as follows:
+      
+      ![alt text](https://github.com/luisxiaomai/Images/blob/master/Machine-Learning/Week3/gradient_regularized_1.png)
+
+      ![alt text](https://github.com/luisxiaomai/Images/blob/master/Machine-Learning/Week3/gradient_regularized_2.png)
+  
+      
+      
+      
 ## Week4
 
 ## Week5
