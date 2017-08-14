@@ -247,6 +247,17 @@ different datasets. See related [exercises and scripts](https://github.com/luisx
       
       ![alt text](https://github.com/luisxiaomai/Images/blob/master/Machine-Learning/Week3/gradient.png)
 
+     **4. Learning parameters using fminunc**
+      
+      In the previous assignment, you found the optimal parameters of a linear regression model by implementing gradent descent. You wrote a cost function and calculated its gradient, then took a gradient descent step accordingly.This time, instead of taking gradient descent steps, you will use an Octave/-MATLAB built-in function called fminunc.
+      
+      Octave/MATLAB's fminunc is an optimization solver that fnds the minimum of an unconstrained2 function. For logistic regression, you want to optimize the cost function J(0) with parameters 0.
+      
+      This fnal 0 value will then be used to plot the decision boundary on the training data, resulting in a figure similar to below picture:
+      
+      ![alt text](https://github.com/luisxiaomai/Images/blob/master/Machine-Learning/Week3/decisionBoundray.png)
+      
+     
 ## Week4
 
 ## Week5
