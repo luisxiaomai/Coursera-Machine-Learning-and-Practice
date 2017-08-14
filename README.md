@@ -253,7 +253,7 @@ different datasets. See related [exercises and scripts](https://github.com/luisx
       
       Octave/MATLAB's fminunc is an optimization solver that fnds the minimum of an unconstrained2 function. For logistic regression, you want to optimize the cost function J(θ) with parameters θ.
       
-      *5. Plot the decision boundary*
+      **5. Plot the decision boundary**
       
       This fnal θ value will then be used to plot the decision boundary on the training data, resulting in a figure similar to below picture:
       
@@ -297,7 +297,7 @@ different datasets. See related [exercises and scripts](https://github.com/luisx
       
      Similar to the previous parts, you will use fminunc to learn the optimal parameters θ
       
-      *5. Plot the decision boundary*
+     **5. Plot the decision boundary**
       
       This fnal θ value will then be used to plot the decision boundary on the training data, resulting in a figure similar to below picture:
       
