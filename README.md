@@ -244,6 +244,7 @@ different datasets. See related [exercises and scripts](https://github.com/luisx
       ![alt text](https://github.com/luisxiaomai/Images/blob/master/Machine-Learning/Week3/costFunction.png)
       
       and the gradient of the cost is a vector of the same length as θ where the jthelement (for j = 0; 1; : : : ; n) is defined as follows:
+      
       ![alt text](https://github.com/luisxiaomai/Images/blob/master/Machine-Learning/Week3/gradient.png)
 
 ## Week4
