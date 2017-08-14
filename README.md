@@ -214,6 +214,38 @@ on data. See related [exercises and scripts](https://github.com/luisxiaomai/Cour
     
   - **Octave Practice for Logistics Regression**
 
+     In this exercise, you will implement logistic regression and apply it to two
+different datasets. See related [exercises and scripts](https://github.com/luisxiaomai/Coursera-Machine-Learning-and-Practice/tree/master/Week3/machine-learning-ex2) which used officeal coursera's exercise. All what we did in the exercises are summarised as below sections:
+
+      > Logistic Regression
+      
+     In this part of the exercise, you will build a logistic regression model to predict whether a student gets admitted into a university. Suppose that you are the administrator of a university department and you want to determine each applicant's chance of admission based on their results on two exams. You have historical data from previous applicants that you can use as a training set for logistic regression. For each training example, you have the applicant's scores on two exams and the admissions decision. Your task is to build a classification model that estimates an applicant's probability of admission based the scores from those two exams
+
+      **1. Visualizing the data**
+      
+      Before starting to implement any learning algorithm, it is always good to visualize the data if possible. It can help you get more familiar with the data distribution.
+      
+      ![alt text](https://github.com/luisxiaomai/Images/blob/master/Machine-Learning/Week3/plotData.png)
+      
+      **2. Sigmoid function**
+      
+      Before you start with the actual cost function, recall that the logistic regression hypothesis is defined as:
+      
+      ![alt text](https://github.com/luisxiaomai/Images/blob/master/Machine-Learning/Week3/hypothesis.png)
+      
+      where function g is the sigmoid function. The sigmoid function is defined as:
+      
+      ![alt text](https://github.com/luisxiaomai/Images/blob/master/Machine-Learning/Week3/sigmoid.png)
+      
+     **3. Cost function and gradient**
+      
+      Recall that the cost function in logistic regression is
+      
+      ![alt text](https://github.com/luisxiaomai/Images/blob/master/Machine-Learning/Week3/costFunction.png)
+      
+      and the gradient of the cost is a vector of the same length as θ where the jthelement (for j = 0; 1; : : : ; n) is defined as follows:
+      ![alt text](https://github.com/luisxiaomai/Images/blob/master/Machine-Learning/Week3/gradient.png)
+
 ## Week4
 
 ## Week5
