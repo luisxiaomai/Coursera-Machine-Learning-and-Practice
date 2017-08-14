@@ -211,8 +211,8 @@ on data. See related [exercises and scripts](https://github.com/luisxiaomai/Cour
     - `Cost Function`
     - `Regularized Linear Regression`
     - `Regularized Logistic Regression`
-
-  - **Octave Practice for Logistics Regression**
+    
+  - **Octave Practice for Logistics Regression**
 
 ## Week4
 
