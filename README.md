@@ -330,8 +330,8 @@ different datasets. See related [exercises and scripts](https://github.com/luisx
       
       You're given a dataset that contains 5000 training examples of handwritten digits. Each training exaple is a 20 pixel by 20 pixel prayscale image of the digit.Each pixel is represented by a floating point number indicating the grayscale intensity at that location. The 20 by 20 grid of pixels is "unrolled" into a 400-dimensional vector. Each of these training examples becomes a single row in our data matrix X. This gives us a 5000 by 400 matrix X where every row is a training example for a handwritten digit image.
       
-      We will begin by visualizing a subset of the training set, select 100 rows from X and pass those rows to the displayData function. After you run the related codes, you should see an imgae like below:
-        
+      We will begin by visualizing a subset of the training set, select 100 rows from X and pass those rows to the displayData function. After you run the related codes, you should see an imgae like below:
+      
       ![alt text](https://github.com/luisxiaomai/Images/blob/master/Machine-Learning/Week4/handwrittenSample.png)
       
       
