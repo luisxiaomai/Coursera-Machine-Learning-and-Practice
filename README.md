@@ -283,7 +283,7 @@ different datasets. See related [exercises and scripts](https://github.com/luisx
      
       Now you will implement code to compute the cost function and gradient for regularized logistic regression.
       
-      Recall that the cost function in logistic regression is
+      Recall that the cost function in logistic regression is:
       
       ![alt text](https://github.com/luisxiaomai/Images/blob/master/Machine-Learning/Week3/regularized_cost_function.png)
       
@@ -351,7 +351,27 @@ different datasets. See related [exercises and scripts](https://github.com/luisx
      In this part of the exercise, you will implement one-vs-all classification by training multiple regularized logistic regression classifiers. After training your one-vs-all classifier, you can now use it to predict the digit contained in a given image. For each input, you should compute the "probability" that it belongs to each class using the trained logistic regression classifiers.
                
      You should see that the training set accuracy is about 94.9% (i.e., it classifies 94.9% of the examples in the training set correctly).
+  
+     > Neural Networks
+      
+     In the previous part of this exercise, you implemented multi-class logistic regression to recognize handwritten digits. However, logistic regression cannot form more complex hypotheses as it is only a linear classifier. In this part of the exercise, you will implement a neural network to recognize handwritten digits using the same training set as before. The neural network will be able to represent complex models that form non-linear hypotheses. For this week, you will be using parameters from a neural network that we have already trained. Your goal is to implement the feedforward propagation algorithm to use our weights for prediction. 
      
+     **1. Model representation**
+     
+     Our neural network is shown as below picture. It has 3 layers { an input layer, a hidden layer and an output layer. Recall that our inputs are pixel values of digit images. Since the images are of size 20*20, this gives us 400 input layer units (excluding the extra bias unit which always outputs +1). 
+     
+     ![alt text](https://github.com/luisxiaomai/Images/blob/master/Machine-Learning/Week4/Neural_network_model.png)
+
+     **2. Feedforward Propagation and Prediction**
+     
+     Now you will implement feedforward propagation for the neural network.
+     
+     You should implement the feedforward computation that computes hθ(x(i))ffor every example i and returns the associated predictions. Similar to the one-vs-all classification strategy, the prediction from the neural network will be the label that has the largest output (hθ(x))k.
+     
+     Once you are done, You should see that the accuracy is about 97.5%.
+       
+     **[⬆ back to top](#table-of-contents)**
+
 ## Week5
 
 ## Week6
