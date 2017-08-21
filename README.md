@@ -322,17 +322,17 @@ different datasets. See related [exercises and scripts](https://github.com/luisx
 
      In this exercise, you will implement one-vs-all logistic regression and neural networks to recognize hand-written digits.See related [exercises and scripts](https://github.com/luisxiaomai/Coursera-Machine-Learning-and-Practice/tree/master/Week4/machine-learning-ex3) which used officeal coursera's exercise. All what we did in the exercises are summarised as below sections:
 
-      > Multi-class Classification
+     > Multi-class Classification
       
      For this exercise, you will use logistic regression and neural networks to recognize handwritten digits (from 0 to 9). Automated handwritten digit recognition is widely used today - from recognizing zip codes (postal codes) on mail envelopes to recognizing amounts written on bank checks.
      
-      **1. Dataset and Visualizing the data**
-      
-      You're given a dataset that contains 5000 training examples of handwritten digits. Each training exaple is a 20 pixel by 20 pixel prayscale image of the digit.Each pixel is represented by a floating point number indicating the grayscale intensity at that location. The 20 by 20 grid of pixels is "unrolled" into a 400-dimensional vector. Each of these training examples becomes a single row in our data matrix X. This gives us a 5000 by 400 matrix X where every row is a training example for a handwritten digit image.
-      
-      We will begin by visualizing a subset of the training set, select 100 rows from X and pass those rows to the displayData function. After you run the related codes, you should see an imgae like below:
-      
-      ![alt text](https://github.com/luisxiaomai/Images/blob/master/Machine-Learning/Week4/handwrittenSample.png)
+     **1. Dataset and Visualizing the data**
+     
+     You're given a dataset that contains 5000 training examples of handwritten digits. Each training exaple is a 20 pixel by 20 pixel prayscale image of the digit.Each pixel is represented by a floating point number indicating the grayscale intensity at that location. The 20 by 20 grid of pixels is "unrolled" into a 400-dimensional vector. Each of these training examples becomes a single row in our data matrix X. This gives us a 5000 by 400 matrix X where every row is a training example for a handwritten digit image.
+     
+     We will begin by visualizing a subset of the training set, select 100 rows from X and pass those rows to the displayData function. After you run the related codes, you should see an imgae like below:
+     
+     ![alt text](https://github.com/luisxiaomai/Images/blob/master/Machine-Learning/Week4/handwrittenSample.png)
       
       
 
