@@ -334,8 +334,24 @@ different datasets. See related [exercises and scripts](https://github.com/luisx
      
      ![alt text](https://github.com/luisxiaomai/Images/blob/master/Machine-Learning/Week4/handwrittenSample.png)
       
-      
+    **2. Vectorizing Logistic Regression**
+     
+     You will be using multiple one-vs-all logistic regression models to build a multi-class classifier. Since there are 10 classes, you will need to train 10 separate logistic regression classifiers. To make this training efficient, it is important to ensure that your code is well vectorized.
+     
+     Recall that for regularized logistic regression, the cost function is defined as
+     
+     ![alt text](https://github.com/luisxiaomai/Images/blob/master/Machine-Learning/Week4/regularized_logistic_regression.png)
+     
+     Note that you should not be regularizing θ0 which is used for the bias term. Correspondingly, the partial derivative of regularized logistic regression cost for θj is defined as
+    
+     ![alt text](https://github.com/luisxiaomai/Images/blob/master/Machine-Learning/Week4/theta.png)
 
+    **3. One-vs-all Classification and Prediction**
+     
+     In this part of the exercise, you will implement one-vs-all classification by training multiple regularized logistic regression classifiers. After training your one-vs-all classifier, you can now use it to predict the digit contained in a given image. For each input, you should compute the "probability" that it belongs to each class using the trained logistic regression classifiers.
+               
+     You should see that the training set accuracy is about 94.9% (i.e., it classifies 94.9% of the examples in the training set correctly).
+     
 ## Week5
 
 ## Week6
