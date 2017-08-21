@@ -307,6 +307,25 @@ different datasets. See related [exercises and scripts](https://github.com/luisx
       
 ## Week4
 
+ - **Motivations** 
+    - `Non-linear Hypothesis`
+    - `Neurons and the Brain`
+    
+  - **Neural Networks**
+    - `Model Representation`
+    
+  - **Application**
+    - `Examples and Intuitions`
+    - `MultiClass classification`
+    
+  - **Octave Practice for Multi-class Classification and Neural Networks**
+
+     In this exercise, you will implement one-vs-all logistic regression and neural networks to recognize hand-written digits.See related [exercises and scripts](https://github.com/luisxiaomai/Coursera-Machine-Learning-and-Practice/tree/master/Week3/machine-learning-ex2) which used officeal coursera's exercise. All what we did in the exercises are summarised as below sections:
+
+      > Logistic Regression
+      
+     In this part of the exercise, you will build a logistic regression model to predict whether a student gets admitted into a university. Suppose that you are the administrator of a university department and you want to determine each applicant's chance of admission based on their results on two exams. You have historical data from previous applicants that you can use as a training set for logistic regression. For each training example, you have the applicant's scores on two exams and the admissions decision. Your task is to build a classification model that estimates an applicant's probability of admission based the scores from those two exams.
+
 ## Week5
 
 ## Week6
